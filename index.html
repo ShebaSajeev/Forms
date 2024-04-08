@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complex Form</title>
+<link rel="stylesheet" href="./test.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Application</h2>
+    <form id="complexForm">
+        <section>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            
+        </section>
+
+        <section>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            
+        </section>
+
+        <section>
+            <label for="mail">Email </label>
+            <input id="mail" type="email">
+            
+           
+        </section>
+
+        <section>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
+            
+        </section>
+
+        <section>
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+            </select>
+            
+        </section>
+
+        <section id="upload">
+            <label for="">Upload</label>
+            <input  type="file">
+        </section>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
